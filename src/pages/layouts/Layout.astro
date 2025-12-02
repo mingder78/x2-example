@@ -10,12 +10,76 @@ console.log(content);
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>title</title>
-    <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"
+    ></script>
   </head>
   <body>
-    <div class="grid place-items-center h-screen content-center">
-      <button data-toggle-theme="cupcake,cyberpunk" data-act-class="ACTIVECLASS">👉 switch themes</button>
-      <slot />
-    </div>
-  </body>
+    <!--
+Source - https://stackoverflow.com/q/77907933
+Posted by Dreamer64
+Retrieved 2025-12-02, License - CC BY-SA 4.0
+-->
+
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sample Ui</title>
+
+        <link
+          href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css"
+          rel="stylesheet"
+          type="text/css"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+      </head>
+      <body>
+        <div class="drawer">
+          <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+
+          <label class="btn btn-circle swap swap-rotate z-10" for="my-drawer">
+            <!-- hamburger icon -->
+            <svg
+              class="swap-off fill-current [:checked~*_&]:!-rotate-45 [:checked~*_&]:!opacity-0"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 512 512"
+              ><path
+                d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+              ></path></svg
+            >
+            <!-- close icon -->
+            <svg
+              class="swap-on fill-current [:checked~*_&]:!rotate-0 [:checked~*_&]:!opacity-100"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 512 512"
+              ><polygon
+                points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"
+              ></polygon></svg
+            >
+          </label>
+
+          <div class="drawer-content">
+            <!-- Page content here -->
+            <!--label for="my-drawer" class="btn btn-primary drawer-button">Open drawer</label-->
+          </div>
+          <div class="drawer-side">
+            <label
+              for="my-drawer"
+              aria-label="close sidebar"
+              class="drawer-overlay"></label>
+            <ul
+              class="menu p-4 w-80 min-h-full bg-base-200 text-base-content mt-10"
+            >
+              <!-- Sidebar content here -->
+              <li><a>Sidebar Item 1</a></li>
+              <li><a>Sidebar Item 2</a></li>
+            </ul>
+          </div>
+        </div>
+      </body>
+    </html></body>
 </html>
