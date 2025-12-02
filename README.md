@@ -230,19 +230,3 @@ console.log(content);
 
 ```
 
-```sh
-ming-ders-MacBook.local💩➜  x git:(main) ✗ cat src/pages/index.astro
----
-import Layout from "./layouts/Layout.astro";
-import X from "./components/X.tsx";
----
-
-<Layout title="ming">
-  <X/>
-</Layout>
-ming-ders-MacBook.local💩➜  x git:(main) ✗
-
-```
-
-
-d
