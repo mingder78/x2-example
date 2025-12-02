@@ -1,11 +1,12 @@
 ---
 import Layout from "./layouts/Layout.astro";
-import X from "./components/X.tsx";
+import X from "../components/X.tsx";
+import ThemeSwitch from "../components/ThemeSwitch.astro";
 ---
 
 <Layout title="ming">
-  <X />
   <div class="card bg-base-100 w-96 shadow-sm">
+    <ThemeSwitch />
     <figure>
       <img
         src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -23,4 +24,5 @@ import X from "./components/X.tsx";
       </div>
     </div>
   </div>
+  <X />
 </Layout>

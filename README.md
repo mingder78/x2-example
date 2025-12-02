@@ -20,39 +20,16 @@ bun install v1.2.20 (6ad208bc)
 ```sh
 👉bun dev
 $ astro dev
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc.zip found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc/fastqc.fo found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc/fastqc_data.txt found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc/summary.txt found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc/Icons/error.png found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc/Icons/fastqc_icon.png found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc/Icons/tick.png found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc/Icons/warning.png found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc/Images/adapter_content.png found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc/Images/duplication_levels.png found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc/Images/per_base_n_content.png found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc/Images/per_base_quality.png found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc/Images/per_base_sequence_content.png found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc/Images/per_sequence_gc_content.png found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc/Images/per_sequence_quality.png found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc/Images/per_tile_quality.png found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/FastQC_on_data_69__Webpage/Trimmomatic on hcc1395_tumor_rep3_r2_fastq_gz _R2 paired__fastqc/Images/sequence_length_distribution.png found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/assets/app.css found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/components/Profile.tsx found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [WARN] Unsupported file type /private/tmp/x2-example/src/pages/components/X.tsx found. Prefix filename with an underscore (`_`) to ignore.
-13:22:21 [types] Generated 1ms
-13:22:21 [content] Syncing content
-13:22:21 [content] Astro config changed
-13:22:21 [content] Astro version changed
-13:22:21 [content] Clearing content store
-13:22:21 [content] Synced content
+14:12:38 [types] Generated 1ms
+14:12:38 [content] Syncing content
+14:12:38 [content] Synced content
 
- astro  v5.7.5 ready in 1943 ms
+ astro  v5.7.5 ready in 729 ms
 
 ┃ Local    http://localhost:4321/
 ┃ Network  use --host to expose
 
-13:22:21 watching for file changes...
+14:12:38 watching for file changes...
 ```
 
 ## key files
@@ -118,18 +95,9 @@ console.log(content);
 <html lang="en">
   <head>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"
-    ></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sample Ui</title>
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <div class="hidden lg:block bg-red-500 p-4">Desktop only</div>

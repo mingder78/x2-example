@@ -1,31 +1,23 @@
 ---
-import "../assets/app.css";
+import "../../assets/app.css";
+import "theme-change";
 const { content } = Astro.props;
 console.log(content);
 ---
 
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="../assets/app.css" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"
-    ></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sample Ui</title>
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <div class="hidden lg:block bg-red-500 p-4">Desktop only</div>
     <div class="block lg:hidden bg-blue-500 p-4">Mobile only</div>
     <div class="drawer lg:drawer-open">
       <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
-
       <!-- Page Content -->
       <div class="drawer-content flex flex-col">
         <!-- OPEN BUTTON (hidden on desktop) -->
